@@ -1,0 +1,30 @@
+main {
+  height: calc(100vh - 40vh);
+}
+body {
+   display: flex;
+   flex-direction: column;
+}
+header, 
+footer { 
+  background-color: #E7E7E7;
+}
+main { 
+   flex: 1;
+}
+main { 
+  display: flex;
+}
+nav, 
+aside { 
+  width: 20vw;
+  background-color: #808080;
+  text-align: center;
+}
+article {
+   flex: 1;
+}
+nav {
+  order: -1
+}
+
