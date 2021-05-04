@@ -25,3 +25,12 @@
 .row_cell--center{
     align-self: flex-center;
 }
+.row--top {
+   align-items: flex-start; 
+}
+.row--center {
+   align-items: center
+}
+.row--bottom {
+   align-items: flex-end;
+}
